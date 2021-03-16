@@ -1,0 +1,121 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+
+body {
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(245deg, rgb(49, 105, 35) 0%, rgba(0,204,133,1) 100%);
+    background-size: cover;
+
+}
+
+#principal {
+    display: flex;
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 15px;
+    width: 75%;
+    
+}
+
+.options {
+    text-align: center;
+}
+
+.dash {
+    
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 48, 48);
+    box-shadow: 2px 2px 7px rgb(71, 69, 69);
+    
+    
+}
+
+.dash img {
+    width: 55%;
+    margin-top: 5%;
+    height: 13%;
+
+
+}
+
+.dash input[type="button"] {
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(46, 45, 45);
+    margin-top: 22px;
+    margin-left: 10px;
+    background-image: linear-gradient(#136a8a,#267871);
+    color: white;
+    outline: none;
+}
+
+.dash input[type="button"]:hover {
+    background-image: linear-gradient(#2d9cc4,#42beb4);
+    cursor: pointer;
+}
+
+.dash input[type="text"] {
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(46, 45, 45);
+    border: none;
+    margin-top: 25px;
+    outline: none;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+.card {
+    height: 190px;
+    width: 180px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(71, 71, 71);
+    margin: 10px;
+    background: linear-gradient(
+        to left bottom, 
+        rgba(255,255,255, 0.9), 
+        rgba(255,255,255, 0.6)
+        );
+        backdrop-filter: blur(1rem);
+    font-size: 0.6em;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.card img {
+    height: 40%;
+    margin: 20px 0;
+}
+
